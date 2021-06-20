@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body {
+background-image: url(Rock4.JPG);    
+background-position: right;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 58% 90%; 
+}
+
+
+img {
+  border-radius: 80px;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+
+.container{ 
+height: 70%;
+}
+
+.card{
+height: 350px;
+margin-right: auto;
+margin-bottom: auto;
+width: 389px;
+background-color: rgba(158, 139, 139, 0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: rgb(75, 94, 177);
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(75, 94, 177);
+color: rgb(245, 236, 236);
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: rgb(243, 231, 231);
+background-color: rgb(194, 199, 224)2;
+width: 100px;
+}
+
+.login_btn:hover{
+color: rgb(247, 243, 243);
+background-color: rgb(201, 198, 238);
+}
+
+.links{
+color: rgb(65, 33, 33);
+}
+
+.links a{
+margin-left: 10px;
+}
+
+.btn-store {
+  color: #777777;
+  min-width: 190px;
+  padding: 10px 10px !important;
+  border-color: #dddddd !important;
+}
+
+
+.btn-store:focus, 
+.btn-store:hover {
+  color: #423d3d !important;
+  background-color: #a6cce9;
+  border-color: #c3ddf1 !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align:right;  
+  margin-right: auto;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 18px;
+}
+
+
+
